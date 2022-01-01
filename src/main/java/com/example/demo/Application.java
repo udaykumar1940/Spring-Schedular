@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 
 /*
- * Author: Uday Katta app 1
+ * Author: Uday Katta app0
  */
 @SpringBootApplication
 @EnableScheduling
