@@ -37,7 +37,7 @@ public class Application {
 		System.out.println("schedulerMethod3=>" + new Date());
 	}
 	
-	//Spring-Scheduler: every 3 months, 25th 23:09:00: testing Squash in git
+	//Spring-Scheduler: every 3 months, 25th 23:09:00: testing Squash in git commit 16
 	@Scheduled(cron = "0 9 23 25 1/3 ?") // every 3 months, 25th 23:09:00
 	public void schedulerMethod4() {
 		System.out.println("schedulerMethod4=>" + new Date());
