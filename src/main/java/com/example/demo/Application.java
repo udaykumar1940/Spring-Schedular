@@ -16,11 +16,12 @@ import org.springframework.scheduling.annotation.Scheduled;
 @ComponentScan(basePackages = "com.example")
 public class Application {
 
-	
+	//This is main method,testing Squash in git
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
 	
+	//Every Hour schedulerMethod,testing Squash in git
 	@Scheduled(cron = "0 0 0/1 1/1 * ?")
 	public void schedulerMethod() {
 		System.out.println("Every Hour schedulerMethod=>" + new Date());
@@ -36,6 +37,7 @@ public class Application {
 		System.out.println("schedulerMethod3=>" + new Date());
 	}
 	
+	//Spring-Scheduler: every 3 months, 25th 23:09:00: testing Squash in git
 	@Scheduled(cron = "0 9 23 25 1/3 ?") // every 3 months, 25th 23:09:00
 	public void schedulerMethod4() {
 		System.out.println("schedulerMethod4=>" + new Date());
