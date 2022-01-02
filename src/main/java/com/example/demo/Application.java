@@ -16,7 +16,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 @ComponentScan(basePackages = "com.example")
 public class Application {
 
-	//This is main method,testing Squash in git 2
+	//This is main method,testing Squash in git 3
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
