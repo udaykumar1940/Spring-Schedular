@@ -16,12 +16,12 @@ import org.springframework.scheduling.annotation.Scheduled;
 @ComponentScan(basePackages = "com.example")
 public class Application {
 
-	//This is main method,testing Squash in git 4
+	//This is main method,testing Squash in git 5
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
 	
-	//Every Hour schedulerMethod,testing Squash in git 4
+	//Every Hour schedulerMethod,testing Squash in git commit 17
 	@Scheduled(cron = "0 0 0/1 1/1 * ?")
 	public void schedulerMethod() {
 		System.out.println("Every Hour schedulerMethod=>" + new Date());
