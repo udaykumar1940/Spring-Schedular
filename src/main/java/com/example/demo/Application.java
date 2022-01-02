@@ -21,7 +21,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 	
-	//Every Hour schedulerMethod,testing Squash in git 2
+	//Every Hour schedulerMethod,testing Squash in git 3
 	@Scheduled(cron = "0 0 0/1 1/1 * ?")
 	public void schedulerMethod() {
 		System.out.println("Every Hour schedulerMethod=>" + new Date());
